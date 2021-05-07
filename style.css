@@ -56,6 +56,7 @@ p {
 	border-style: solid;
 	border-color: black;
 }
+
 /* The same border-shorter */
 .rocket {
 	border: 2px solid black;
@@ -75,10 +76,12 @@ p {
 .starlord {
 	margin: 20px 30px 20px 30px;
 }
+
 /* top & bottom + left & right  */
 .starlord {
 	margin: 20px 30px;
 }
+
 /* All margins with the same size */
 .starlord {
 	margin: 20px;
@@ -91,7 +94,18 @@ p {
 	padding-bottom: 20px;
 	padding-left: 30px;
 }
+
 /* Padding shorter */
 .starlord {
 	padding: 20px 30px 20px 30px;
+}
+
+/* top & bottom + left & right  */
+.starlord {
+	padding: 20px 30px;
+}
+
+/* Padding: all same sizes */
+.starlord {
+	padding: 20px;
 }
