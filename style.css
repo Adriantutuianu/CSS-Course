@@ -83,3 +83,11 @@ p {
 .starlord {
 	margin: 20px;
 }
+
+/* Padding */
+.starlord {
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+}
