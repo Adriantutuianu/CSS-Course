@@ -56,3 +56,17 @@ p{
 	border-style: solid;
 	border-color: black;
 }
+/* The same border-shorter */
+.rocket{
+	border: 2px solid black
+}
+
+/* Margins */
+.starlord{
+	margin-top: 20px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	margin-left: 30px;
+}
+
+
