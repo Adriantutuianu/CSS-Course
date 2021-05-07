@@ -70,4 +70,12 @@ p{
 	margin-left: 30px;
 }
 
-
+/* The same margins- shorter */
+/* Top right bottom left  */
+.starlord{
+	margin: 20px 30px 20px 30px;
+}
+/* top & bottom + left & right  */
+.starlord{
+	margin: 20px 30px;
+}
