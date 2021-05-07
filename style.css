@@ -1,15 +1,15 @@
-body{
+body {
 	background-color:beige;
 }
 
 /* Class selector */
-.select-me{
+.select-me {
 	color:rebeccapurple;
 	background-color: royalblue;
 }
 
 /* Id selector */
-#select-me{
+#select-me {
 	color:rgb(165, 34, 158);
 	font-size: 50px;
     font-style: italic;
@@ -27,43 +27,43 @@ p {
 	color: red;
 }
 /*Text alignment*/	
-p{
+p {
 	text-align: center;
 }
 /*Font size*/
-p{
+p {
 	font-size: 32px;
 }
 
 /*Font weight*/
-p{
-	font-weight: 700;
+p {
+ 	font-weight: 700;
 }
 
 /*Font family*/
-p{
-	font-family:Verdana, Geneva, Tahoma, sans-serif
+p {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.panda{
+.panda {
 	height:200px;
 	width:300px;
 }
 
 /* border */
-.rocket{
+.rocket {
 	border-width:2px;
 	border-style: solid;
 	border-color: black;
 }
 /* The same border-shorter */
-.rocket{
+.rocket {
 	border: 2px solid black;
 	border-radius: 50px;
 }
 
 /* Margins */
-.starlord{
+.starlord {
 	margin-top: 20px;
 	margin-right: 30px;
 	margin-bottom: 20px;
@@ -72,10 +72,14 @@ p{
 
 /* The same margins- shorter */
 /* Top right bottom left  */
-.starlord{
+.starlord {
 	margin: 20px 30px 20px 30px;
 }
 /* top & bottom + left & right  */
-.starlord{
+.starlord {
 	margin: 20px 30px;
+}
+/* All margins with the same size */
+.starlord {
+	margin: 20px;
 }
