@@ -26,11 +26,16 @@ p {
 .red {
 	color: red;
 }
-
+/*Text alignment*/	
 p{
 	text-align: center;
 }
-
+/*Font size*/
 p{
 	font-size: 32px;
+}
+
+/*Font weight*/
+p{
+	font-weight: 700;
 }
