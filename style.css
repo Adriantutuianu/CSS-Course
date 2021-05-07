@@ -58,7 +58,8 @@ p{
 }
 /* The same border-shorter */
 .rocket{
-	border: 2px solid black
+	border: 2px solid black;
+	border-radius: 50px;
 }
 
 /* Margins */
