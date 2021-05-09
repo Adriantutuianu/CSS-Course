@@ -111,12 +111,20 @@ p {
 }
 
 /* Static position */
-.static-me{
-	position:static;
+.static-me {
+	position: static;
 }
 
 /* Relative position */
-.relative-me{
-	position:relative;
-	top:10px;
+.relative-me {
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+
+/* Fixed position */
+.fixed-me {
+	position: fixed;
+	top: 50px;
+	left: 50px;
 }
