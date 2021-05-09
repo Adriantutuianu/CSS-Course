@@ -109,3 +109,8 @@ p {
 .starlord {
 	padding: 20px;
 }
+
+/* Static position */
+.static-me{
+	position:static;
+}
