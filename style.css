@@ -140,3 +140,10 @@ p {
 .block-me {
 	display: block;
 }
+
+/* Inline block  */
+.inline-me, inline-you {
+	display: inline-block;
+	height: 20px;
+	width: 50%;
+}
