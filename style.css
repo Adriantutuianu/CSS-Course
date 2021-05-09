@@ -114,3 +114,9 @@ p {
 .static-me{
 	position:static;
 }
+
+/* Relative position */
+.relative-me{
+	position:relative;
+	top:10px;
+}
