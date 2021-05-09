@@ -128,3 +128,10 @@ p {
 	top: 50px;
 	left: 50px;
 }
+
+/* Absolute position */
+.absolute-me{
+	position: absolute;
+	top: 280px;
+	left: 200px;
+}
