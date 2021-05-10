@@ -173,3 +173,11 @@ p {
 	width: 200px;
 	overflow: auto;
 }
+
+/* Overflow visible  */
+.auto-me {
+	height: 40px;
+	Width: 200px;
+	overflow: visible;
+	border: 1px solid #000;
+}
