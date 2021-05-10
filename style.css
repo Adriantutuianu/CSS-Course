@@ -201,3 +201,20 @@ a:active {
 a:link {
 	color:red;
 }
+
+/* Change properties of an visited link */
+a:visited {
+	color: black;
+}
+
+/* Writing media queries */
+@media screen and (condition) {
+	//Whatever CSS you want to write
+}
+
+/* CSS for screen sizes wider than or equal to 720px */
+@media screen and (min-width: 720px) {
+	p{
+		font-size: 16px;
+	}
+}
