@@ -159,3 +159,10 @@ p {
 	width: 400px;
 	overflow: hidden;
 }
+
+/* Scrollbars overflowing content  */
+.scroll {
+	height: 50px;
+	width: 200px;
+	overflow: scroll;
+}
