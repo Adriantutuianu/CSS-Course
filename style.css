@@ -181,3 +181,13 @@ p {
 	overflow: visible;
 	border: 1px solid #000;
 }
+
+/* Pseudo classes */
+selector: pseudo-class {
+	property:value;
+}
+
+/* Changing element properties on hover  */
+.hover-me: hover {
+	background-color: green;
+}
