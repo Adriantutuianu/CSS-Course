@@ -188,6 +188,6 @@ selector: pseudo-class {
 }
 
 /* Changing element properties on hover  */
-.hover-me: hover {
+.hover-me:hover {
 	background-color: green;
 }
