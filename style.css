@@ -214,7 +214,14 @@ a:visited {
 
 /* CSS for screen sizes wider than or equal to 720px */
 @media screen and (min-width: 720px) {
-	p{
+	p {
+		font-size: 16px;
+	}
+}
+
+/* CSS for screen sizes smaller or equal to 480px */
+@media screen and (max-width: 480px) {
+	p {
 		font-size: 16px;
 	}
 }
