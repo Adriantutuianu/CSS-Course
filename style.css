@@ -196,3 +196,8 @@ selector:pseudo-class {
 a:active {
 	color:rgb(0, 255, 115);
 }
+
+/* Change properties of an unvisited link  */
+a:link {
+	color:red;
+}
