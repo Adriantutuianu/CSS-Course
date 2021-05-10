@@ -183,11 +183,16 @@ p {
 }
 
 /* Pseudo classes */
-selector: pseudo-class {
+selector:pseudo-class {
 	property:value;
 }
 
 /* Changing element properties on hover  */
 .hover-me:hover {
 	background-color: green;
+}
+
+/* Changing properties of a link  */
+a:active {
+	color:rgb(0, 255, 115);
 }
