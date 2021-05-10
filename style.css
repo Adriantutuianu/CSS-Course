@@ -166,3 +166,10 @@ p {
 	width: 200px;
 	overflow: scroll;
 }
+
+/* Overflow auto */
+.auto-me {
+	height:40px;
+	width: 200px;
+	overflow: auto;
+}
