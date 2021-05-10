@@ -152,3 +152,10 @@ p {
 .not-me {
 	display: none;
 }
+
+/* Trim overflowing content  */
+.trimmed {
+	height: 20px;
+	width: 400px;
+	overflow: hidden;
+}
