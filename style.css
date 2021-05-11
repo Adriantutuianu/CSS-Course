@@ -1,227 +1,227 @@
 body {
-	background-color:beige;
+  background-color: beige;
 }
 
 /* Class selector */
 .select-me {
-	color:rebeccapurple;
-	background-color: royalblue;
+  color: rebeccapurple;
+  background-color: royalblue;
 }
 
 /* Id selector */
 #select-me {
-	color:rgb(165, 34, 158);
-	font-size: 50px;
-    font-style: italic;
-    font-weight: bold;
-    background-color: bisque;
+  color: rgb(165, 34, 158);
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  background-color: bisque;
 }
 
 /*HTML Tag selector */
 p {
-	font-size: 24px;
-	color: blue;
+  font-size: 24px;
+  color: blue;
 }
 
 .red {
-	color: red;
+  color: red;
 }
-/*Text alignment*/	
+/*Text alignment*/
 p {
-	text-align: center;
+  text-align: center;
 }
 /*Font size*/
 p {
-	font-size: 32px;
+  font-size: 32px;
 }
 
 /*Font weight*/
 p {
- 	font-weight: 700;
+  font-weight: 700;
 }
 
 /*Font family*/
 p {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .panda {
-	height:200px;
-	width:300px;
+  height: 200px;
+  width: 300px;
 }
 
 /* border */
 .rocket {
-	border-width:2px;
-	border-style: solid;
-	border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
 }
 
 /* The same border-shorter */
 .rocket {
-	border: 2px solid black;
-	border-radius: 50px;
+  border: 2px solid black;
+  border-radius: 50px;
 }
 
 /* Margins */
 .starlord {
-	margin-top: 20px;
-	margin-right: 30px;
-	margin-bottom: 20px;
-	margin-left: 30px;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-left: 30px;
 }
 
 /* The same margins- shorter */
 /* Top right bottom left  */
 .starlord {
-	margin: 20px 30px 20px 30px;
+  margin: 20px 30px 20px 30px;
 }
 
 /* top & bottom + left & right  */
 .starlord {
-	margin: 20px 30px;
+  margin: 20px 30px;
 }
 
 /* All margins with the same size */
 .starlord {
-	margin: 20px;
+  margin: 20px;
 }
 
 /* Padding */
 .starlord {
-	padding-top: 20px;
-	padding-right: 30px;
-	padding-bottom: 20px;
-	padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
 }
 
 /* Padding shorter */
 .starlord {
-	padding: 20px 30px 20px 30px;
+  padding: 20px 30px 20px 30px;
 }
 
 /* top & bottom + left & right  */
 .starlord {
-	padding: 20px 30px;
+  padding: 20px 30px;
 }
 
 /* Padding: all same sizes */
 .starlord {
-	padding: 20px;
+  padding: 20px;
 }
 
 /* Static position */
 .static-me {
-	position: static;
+  position: static;
 }
 
 /* Relative position */
 .relative-me {
-	position: relative;
-	top: 10px;
-	left: 20px;
+  position: relative;
+  top: 10px;
+  left: 20px;
 }
 
 /* Fixed position */
 .fixed-me {
-	position: fixed;
-	top: 50px;
-	left: 50px;
+  position: fixed;
+  top: 50px;
+  left: 50px;
 }
 
 /* Absolute position */
-.absolute-me{
-	position: absolute;
-	top: 280px;
-	left: 200px;
+.absolute-me {
+  position: absolute;
+  top: 280px;
+  left: 200px;
 }
 
 /* Display block  */
 .block-me {
-	display: block;
+  display: block;
 }
 
 /* Inline block  */
-.inline-me, inline-you {
-	display: inline-block;
-	height: 20px;
-	width: 50%;
+.inline-me,
+inline-you {
+  display: inline-block;
+  height: 20px;
+  width: 50%;
 }
 
 /* Display value none */
 .not-me {
-	display: none;
+  display: none;
 }
 
 /* Trim overflowing content  */
 .trimmed {
-	height: 20px;
-	width: 400px;
-	overflow: hidden;
+  height: 20px;
+  width: 400px;
+  overflow: hidden;
 }
 
 /* Scrollbars overflowing content  */
 .scroll {
-	height: 50px;
-	width: 200px;
-	overflow: scroll;
+  height: 50px;
+  width: 200px;
+  overflow: scroll;
 }
 
 /* Overflow auto */
 .auto-me {
-	height:40px;
-	width: 200px;
-	overflow: auto;
+  height: 40px;
+  width: 200px;
+  overflow: auto;
 }
 
 /* Overflow visible  */
 .auto-me {
-	height: 40px;
-	Width: 200px;
-	overflow: visible;
-	border: 1px solid #000;
+  height: 40px;
+  width: 200px;
+  overflow: visible;
+  border: 1px solid #000;
 }
 
 /* Pseudo classes */
 selector:pseudo-class {
-	property:value;
+  property: value;
 }
 
 /* Changing element properties on hover  */
 .hover-me:hover {
-	background-color: green;
+  background-color: green;
 }
 
 /* Changing properties of a link  */
 a:active {
-	color:rgb(0, 255, 115);
+  color: rgb(0, 255, 115);
 }
 
 /* Change properties of an unvisited link  */
 a:link {
-	color:red;
+  color: red;
 }
 
 /* Change properties of an visited link */
 a:visited {
-	color: black;
+  color: black;
 }
 
 /* Writing media queries */
 @media screen and (condition) {
-	//Whatever CSS you want to write
+  /* Whatever CSS you want to write */
 }
 
 /* CSS for screen sizes wider than or equal to 720px */
 @media screen and (min-width: 720px) {
-	p {
-		font-size: 16px;
-	}
+  p {
+    font-size: 16px;
+  }
 }
-
 /* CSS for screen sizes smaller or equal to 480px */
 @media screen and (max-width: 480px) {
-	p {
-		font-size: 16px;
-	}
+  p {
+    font-size: 14px;
+  }
 }
