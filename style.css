@@ -226,8 +226,7 @@ a:visited {
   }
 }
 
-p:hover,
-h1:hover,
-a:hover {
-  background-color: green;
+/* Hover unvisited link  */
+a:link {
+  color: rgb(182, 17, 17);
 }
