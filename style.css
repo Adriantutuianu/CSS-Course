@@ -225,3 +225,9 @@ a:visited {
     font-size: 14px;
   }
 }
+
+p:hover,
+h1:hover,
+a:hover {
+  background-color: green;
+}
